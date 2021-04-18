@@ -18,15 +18,15 @@ version="${file.jarVersion}" #mandatory
  # A display name for the mod
 displayName="SodaCraft" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
-updateJSONURL="https://github.com/MCHSoda/SodaMensions" #optional
+updateJSONURL="https://github.com/MCHSoda/SodaCraft" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
-displayURL= "https://github.com/MCHSoda/SodaMensions" #optional
+displayURL= "https://github.com/MCHSoda/SodaCraft" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
 credits="Yeetus Smeetus" #optional
 # A text field displayed in the mod UI
-authors="MCHSoda" #optional
+authors="MCHSoda,StStreams" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
 pov: ill work on this part later lmfao

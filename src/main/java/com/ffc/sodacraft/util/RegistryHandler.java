@@ -19,5 +19,6 @@ public class RegistryHandler {
 
     //Items
     public static final RegistryObject<Item> PURE_ADEMENIUM = ITEMS.register("pure_ademenium", ItemBase::new);
+    public static final RegistryObject<Item> AMBER_INGOT = ITEMS.register("amber_ingot", ItemBase::new);
 
 }
