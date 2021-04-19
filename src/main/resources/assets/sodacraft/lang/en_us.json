@@ -1,4 +1,8 @@
 {
   "item.sodacraft.pure_ademenium": "Pure Ademenium",
-  "item.sodacraft.amber_ingot" : "Amber Ingot"
+  "item.sodacraft.amber_ingot" : "Amber Ingot",
+  "item.sodacraft.pure_amber" : "Pure Amber",
+  "item.sodacraft.ademenium_ingot" : "Ademenium Ingot",
+  "block.sodacraft.ademenium_infused_oak_planks" : "Ademenium Infused Oak Planks",
+  "itemGroup.sodaCraft" : "SodaCraft"
 }

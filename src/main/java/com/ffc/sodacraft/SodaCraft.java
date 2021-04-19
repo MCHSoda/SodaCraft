@@ -2,6 +2,8 @@ package com.ffc.sodacraft;
 
 
 import com.ffc.sodacraft.util.RegistryHandler;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraftforge.fml.common.Mod;
@@ -37,5 +39,13 @@ public class SodaCraft {
     private void doClientStuff(final FMLClientSetupEvent event) {
 
     }
+
+    public static final ItemGroup TAB = new ItemGroup("sodaCraft") {
+
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(RegistryHandler.PURE_ADEMENIUM.get());
+        }
+    };
 }
 
