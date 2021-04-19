@@ -31,11 +31,14 @@ public class RegistryHandler {
 
     //OreInfusedPlanks
     public static final RegistryObject<Block> ADEMENIUM_INFUSED_OAK_PLANKS = BLOCKS.register("ademenium_infused_oak_planks", OreInfusedPlanks::new);
+    public static final RegistryObject<Block> ADEMENIUM_INFUSED_DARK_OAK_PLANKS = BLOCKS.register("ademenium_infused_dark_oak_planks", OreInfusedPlanks::new);
 
 
 
 
     //OreInfusedPlanks items
     public static final RegistryObject<Item> ADEMENIUM_INFUSED_OAK_PLANKS_ITEM = ITEMS.register("ademenium_infused_oak_planks", () -> new BlockItemBase(ADEMENIUM_INFUSED_OAK_PLANKS.get()));
+    public static final RegistryObject<Item> ADEMENIUM_INFUSED_DARK_OAK_PLANKS_ITEM = ITEMS.register("ademenium_infused_dark_oak_planks", () -> new BlockItemBase(ADEMENIUM_INFUSED_DARK_OAK_PLANKS.get()));
+
 
 }
